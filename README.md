@@ -19,3 +19,11 @@ git rev-list --count branch1..basebranch
 ```
 
 if return = 0, it means that there is no changes ahead
+
+
+4. Delete branch (locally and remote): 
+
+```
+git push -d <remote_name> <branch_name>
+git branch -d <branch_name>
+```
