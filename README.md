@@ -6,7 +6,7 @@ git fetch origin
 git reset --hard origin/master
 ```
 
-2. reset file version to branch version
+2. reset file version to repository version
 
 ```
 git checkout {branchname} -- {path-to-file}
