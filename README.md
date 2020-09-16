@@ -11,3 +11,11 @@ git reset --hard origin/master
 ```
 git checkout {branchname} -- {path-to-file}
 ```
+
+3. Check if base branch has ahead commits of subbranch
+
+```
+git rev-list --count branch1..basebranch
+```
+
+if return = 0, it means that there is no changes ahead
