@@ -27,3 +27,15 @@ if return = 0, it means that there is no changes ahead
 git push -d <remote_name> <branch_name>
 git branch -d <branch_name>
 ```
+
+5. Cherry pick
+
+Make sure you are on the branch you want to apply the commit to.
+```
+git checkout master
+```
+
+Execute the following:
+```
+git cherry-pick <commit-hash>
+```
