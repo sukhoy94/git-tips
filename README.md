@@ -39,3 +39,11 @@ Execute the following:
 ```
 git cherry-pick <commit-hash>
 ```
+
+
+## 3 important rules to work with GIT in team: 
+```
+1. Resolve conflicts only when you understand why they have arisen.
+2. Always check the list of commits you push
+3. Notified all developers if you have done push force.
+```
