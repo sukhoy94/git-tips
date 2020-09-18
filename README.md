@@ -40,6 +40,12 @@ Execute the following:
 git cherry-pick <commit-hash>
 ```
 
+6. Create subbranch from branch
+
+```
+git checkout -b myFeature baseBranch
+```
+
 
 ## 3 important rules to work with GIT in team: 
 ```
