@@ -49,7 +49,13 @@ git checkout -b myFeature baseBranch
 7. Add alias for command: 
 
 ```
-$ git config --global alias.st status
+git config --global alias.st status
+```
+
+8. Get list of aliases: 
+
+```
+git config --get-regexp alias
 ```
 
 ## 3 important rules to work with GIT in team: 
