@@ -46,6 +46,11 @@ git cherry-pick <commit-hash>
 git checkout -b myFeature baseBranch
 ```
 
+7. Add alias for command: 
+
+```
+$ git config --global alias.st status
+```
 
 ## 3 important rules to work with GIT in team: 
 ```
