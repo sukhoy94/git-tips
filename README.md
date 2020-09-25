@@ -58,6 +58,12 @@ git config --global alias.st status
 git config --get-regexp alias
 ```
 
+9. cherry-pick but change commit message: 
+
+```
+git cherry-pick -e <hash>
+```
+
 ## 3 important rules to work with GIT in team: 
 ```
 1. Resolve conflicts only when you understand why they have arisen.
