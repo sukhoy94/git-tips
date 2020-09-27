@@ -64,6 +64,13 @@ git config --get-regexp alias
 git cherry-pick -e <hash>
 ```
 
+10. Add remote to local repo: 
+
+```
+git remote add origin git@github.com:User/UserRepo.git
+git push -u origin master
+```
+
 ## 3 important rules to work with GIT in team: 
 ```
 1. Resolve conflicts only when you understand why they have arisen.
