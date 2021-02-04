@@ -1,3 +1,5 @@
+https://marklodato.github.io/visual-git-guide/index-pl.html?no-svg
+
 # git-tips
 
 1. reset local branch to it's origin version
