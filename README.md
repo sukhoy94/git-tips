@@ -84,7 +84,7 @@ git remote add origin ORIGIN_URL
 
 ```
 git config --global alias.st status
-git config --global alias.cmt  commit
+git config --global alias.cmt commit
 git config --global alias.p push
 git config --global alias.a add
 ```
