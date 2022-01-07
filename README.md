@@ -80,6 +80,15 @@ git remote remove origin
 git remote add origin ORIGIN_URL
 ```
 
+12. My git aliases list:
+
+```
+git config --global alias.st status
+git config --global alias.cmt  commit
+git config --global alias.p push
+git config --global alias.a add
+```
+
 ## 3 important rules to work with GIT in team: 
 ```
 1. Resolve conflicts only when you understand why they have arisen.
