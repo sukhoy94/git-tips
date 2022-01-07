@@ -88,6 +88,7 @@ git config --global alias.cmt commit
 git config --global alias.p push
 git config --global alias.a add
 git config --global alias.co checkout
+git config --global alias.pl pull
 ```
 
 ## 3 important rules to work with GIT in team: 
