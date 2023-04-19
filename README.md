@@ -14,6 +14,7 @@ git reset --hard origin/master
 git checkout {branchname} -- {path-to-file}
 ```
 
+
 3. Check if base branch has ahead commits of subbranch
 
 ```
@@ -89,6 +90,12 @@ git config --global alias.p push
 git config --global alias.a add
 git config --global alias.co checkout
 git config --global alias.pl pull
+```
+
+13. Reset all changed files to origin branch state
+
+```
+git checkout -- .
 ```
 
 ## 3 important rules to work with GIT in team: 
