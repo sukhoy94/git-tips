@@ -90,6 +90,7 @@ git config --global alias.p push
 git config --global alias.a add
 git config --global alias.co checkout
 git config --global alias.pl pull
+git config --global alias.mg merge
 ```
 
 13. Reset all changed files to origin branch state
