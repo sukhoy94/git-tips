@@ -99,6 +99,10 @@ git config --global alias.mg merge
 git checkout -- .
 ```
 
+14. See changes which is in main but not in my local branch:
+    ```
+    git log HEAD..origin/main
+    ```
 ## 3 important rules to work with GIT in team: 
 ```
 1. Resolve conflicts only when you understand why they have arisen.
