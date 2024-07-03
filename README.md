@@ -110,4 +110,15 @@ git checkout -- .
 3. Notified all developers if you have done push force.
 ```
 
+15. change remote origin url
+
+First - check current remote url
+```
+git remote -v
+```
+Second actual change:
+```
+git remote set-url origin git@github.com:myuser/my-project.git
+```
+
 
